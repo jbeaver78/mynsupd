@@ -3,6 +3,8 @@ My Dynamic DNS Updater (Client and Server) for Bind9 based DNS
 
 Prerequisites:  Linux, Apache, Bind9, SSL with valid certificates, a registered domain
 
+I recommend making a subdomain "dyn" (e.g. dyn.example.com) for this.  This script assumes that you know how to configure a site in Apache.
+
 This project provides a way of doing your own dynamic DNS.  The server side CGI uses nsupdate to update the nameserver.
 It looks for the hostname and an update password which is stored in a file in /etc.
 The file should be set for u+rw,g+r (640 octal permission)
