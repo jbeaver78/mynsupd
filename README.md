@@ -7,7 +7,7 @@ I recommend making a subdomain "dyn" (e.g. dyn.example.com) for this.  This scri
 
 This project provides a way of doing your own dynamic DNS.  The server side CGI uses nsupdate to update the nameserver.
 It looks for the hostname and an update password which is stored in a file in /etc.
-The file should be set for u+rw,g+r (640 octal permission)
+The file should be set for u+rw,g+r (640 octal permission).
 It should be owned by root as the user and www-data as the group.  That's so the CGI script can read it.
 
 Sample file content:
