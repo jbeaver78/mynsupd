@@ -30,7 +30,8 @@ These parameters are highly recommended in the SSL host config to mitigate vulne
         SSLStrictSNIVHostCheck on
  
 Include these lines in your named.conf for the zone:
-      allow-transfer { 127.0.0.1; };
-		  allow-update { 127.0.0.1; };
-You may need to include the IPv6 addresses of your NICs if you have IPv6 active.  Specifying 127.0.0.1 sometimes doesn't stick.  Watch your logs for errors.
 
+    allow-transfer { 127.0.0.1; };
+    allow-update { 127.0.0.1; };
+
+You may need to include the IPv6 addresses of your NICs if you have IPv6 active.  Specifying 127.0.0.1 sometimes doesn't stick.  Watch your logs for errors.
