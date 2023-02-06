@@ -10,7 +10,7 @@ It should be owned by root as the user and www-data as the group.  That's so the
 
 Sample file content:
 
-example-host,vKS44QVHFuat2ZS2JxiZbxzrIuD8gT8pWZJvYM97QbhnaPZP1FQX0knCG7xREL5A9KOxGQfjSDaNA5rdo1YSFZMG60KyzMz2
+        example-host,vKS44QVHFuat2ZS2JxiZbxzrIuD8gT8pWZJvYM97QbhnaPZP1FQX0knCG7xREL5A9KOxGQfjSDaNA5rdo1YSFZMG60KyzMz2
 
 Using the "pwgen" utility with the following parameters is recommended:
 
